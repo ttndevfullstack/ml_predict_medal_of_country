@@ -51,19 +51,6 @@ def load_data(file_path="teams.csv"):
 
 def extract_training_data(data):
     return data[data["year"] < 2012]
-<<<<<<< Tabnine <<<<<<<
-def extract_training_data(data):#+
-    """#+
-    Extracts training data from the given DataFrame based on the year.#+
-#+
-    Parameters:#+
-    data (pandas.DataFrame): The DataFrame containing the data. It should have a column named 'year'.#+
-#+
-    Returns:#+
-    pandas.DataFrame: A new DataFrame containing only the rows where the 'year' is less than 2012.#+
-    """#+
-    return data[data["year"] < 2012]#+
->>>>>>> Tabnine >>>>>>># {"conversationId":"3d684082-97ce-4229-8e73-aadf417fdaf4","source":"instruct"}
 
 
 def extract_testing_data(data):
